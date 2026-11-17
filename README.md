@@ -40,5 +40,5 @@ jobs:
         slack_channel: "#release-announcements"
         # Project Logo
         project_logo: "URL TO PROJECT LOGO"
-      uses: jmertic/slack-release-notifier@002909160ed31f9c0fa15df4fe02d768d16a9dc6 # 20261112
+      uses: jmertic/slack-release-notifier@3b95638361c9910e0b298973dac8f49d313700c4 # 20261117
 ```
