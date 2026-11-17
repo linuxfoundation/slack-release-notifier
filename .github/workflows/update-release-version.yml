@@ -39,9 +39,9 @@ jobs:
 
       - name: Update README.md
         run: |
-          # Matches: uses: jmertic/slack-release-notifier@[anything] # [anything]
+          # Matches: uses: linuxfoundation/slack-release-notifier@[anything] # [anything]
           # Replaces with the new SHA and current date
-          sed -i "s|uses: jmertic/slack-release-notifier@.* # .*|uses: jmertic/slack-release-notifier@${{ steps.meta.outputs.SHA }} # ${{ steps.meta.outputs.VERSION }}|" README.md
+          sed -i "s|uses: linuxfoundation/slack-release-notifier@.* # .*|uses: linuxfoundation/slack-release-notifier@${{ steps.meta.outputs.SHA }} # ${{ steps.meta.outputs.VERSION }}|" README.md
 
       - name: Create Pull Request
         id: cpr
