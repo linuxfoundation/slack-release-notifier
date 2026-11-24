@@ -168,14 +168,14 @@ files = [
 
 [[package]]
 name = "slack-sdk"
-version = "3.47.0"
+version = "3.48.0"
 description = "The Slack API Platform SDK for Python"
 optional = false
 python-versions = ">=3.7"
 groups = ["main"]
 files = [
-    {file = "slack_sdk-3.47.0-py2.py3-none-any.whl", hash = "sha256:8cfab3224d149962ef4313c1430d9ff65b8c3baf09f25988a920858ffa90aaa9"},
-    {file = "slack_sdk-3.47.0.tar.gz", hash = "sha256:824e91a94a5b72a65531e8db0dd63dc4dc6bbad1a219b19582b48d5661c1c707"},
+    {file = "slack_sdk-3.48.0-py2.py3-none-any.whl", hash = "sha256:1213726e5b8015eeded608fcb3665c4e9b48af7f7f383ecc1b90af886d6aaa03"},
+    {file = "slack_sdk-3.48.0.tar.gz", hash = "sha256:e54389b4b9b221c9d57f1d98bc1e28f4918e4e0bc435cc5d430216cb1ab6ad7c"},
 ]
 
 [package.extras]
@@ -199,4 +199,4 @@ markdown-it-py = ">=3.0.0"
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.13"
-content-hash = "b6a8f458846ea557de71f7c5077b2adaff74eaca59bf00a6e67f2ed7df1aaa02"
+content-hash = "6a41ba11dea2e9aa68f7fc75977e584f1635147462aa05944634022888bf284e"
